@@ -1,7 +1,11 @@
+import Info from "@/components/sections/Info";
+import Career from "@/components/sections/Career";
+
 export default function Home() {
   return (
-    <div>
-      <h1>Hello World</h1>
+    <div className="container">
+      <Info />
+      <Career />
     </div>
   );
 }
